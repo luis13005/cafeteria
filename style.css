@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #c4a47c;
+    position: relative;
+    top: 0;
+}
+
+.img-logo {
+    width: 100px;
+    margin-left: 15%;
+}
+
+.navbar-lista {
+    position: absolute;
+    top: 35%;
+    right: 15%;
+    gap: 20px;
+}
+
+.navbar-lista ul {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar-lista li {
+    display: inline;
+    text-decoration: none;
+}
