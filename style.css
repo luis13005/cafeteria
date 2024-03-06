@@ -20,15 +20,88 @@
     position: absolute;
     top: 35%;
     right: 15%;
-    gap: 20px;
 }
 
 .navbar-lista ul {
     display: flex;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 .navbar-lista li {
     display: inline;
     text-decoration: none;
+    flex-wrap: wrap;
+}
+
+.background {
+    width: 100%;
+    height: 100vh;
+}
+
+.banner {
+    background-image: url(img/assets/parallax-imagem1.png);
+    position: relative;
+}
+
+.banner h1 {
+    color: #fff;
+    position: absolute;
+    top: 45%;
+    right: 0;
+    left: 0;
+    text-align: center;
+}
+
+.oswald18px {
+    font-family: 'oswald';
+    font-size: 18px;
+}
+
+.fraunces100px {
+    font-family: 'fraunces';
+    font-size: 100px;
+}
+
+.info {
+    width: 100%;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.info-texto {
+    padding: 0 20px;
+    max-width: 1024px;
+    margin: 20px auto;
+}
+
+.background2 {
+    width: 100%;
+    height: 50vh;
+}
+
+.background-metade {
+    background-image: url(/img/assets/parallax-imagem2.jpg);
+    position: relative;
+}
+
+/* .background-metade div {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    width: 500px;
+    height: 10px;
+    padding: 10px;
+} */
+
+.background-metade p {
+    position: absolute;
+    width: 500px;
+    top: 45%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 10px;
 }
