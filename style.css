@@ -32,6 +32,7 @@
     display: inline;
     text-decoration: none;
     flex-wrap: wrap;
+    color: #604829;
 }
 
 .background {
@@ -41,6 +42,7 @@
 
 .banner {
     background-image: url(img/assets/parallax-imagem1.png);
+    background-attachment: fixed;
     position: relative;
 }
 
@@ -73,6 +75,8 @@
     padding: 0 20px;
     max-width: 1024px;
     margin: 20px auto;
+    font-size: 16px;
+    font-family: 'lato';
 }
 
 .background2 {
@@ -94,5 +98,7 @@
     text-align: center;
     padding: 10px;
     color: #fff;
-    background-color: #c4a47c;
+    background-color: #604829;
+    font-size: 24px;
+    font-family: 'fraunces';
 }
