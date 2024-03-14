@@ -42,6 +42,7 @@
 .banner {
     background-image: url(img/assets/parallax-imagem1.png);
     position: relative;
+    background-attachment: fixed;
 }
 
 .banner h1 {
