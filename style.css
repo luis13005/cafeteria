@@ -32,6 +32,7 @@
     display: inline;
     text-decoration: none;
     flex-wrap: wrap;
+    color: #604829;
 }
 
 .background {
@@ -41,6 +42,7 @@
 
 .banner {
     background-image: url(img/assets/parallax-imagem1.png);
+    background-attachment: fixed;
     position: relative;
     background-attachment: fixed;
 }
@@ -70,10 +72,17 @@
     text-align: center;
 }
 
+.info h1{
+    color: #c4a47c;
+}
+
 .info-texto {
     padding: 0 20px;
     max-width: 1024px;
     margin: 20px auto;
+    font-size: 16px;
+    font-family: 'lato';
+    color: #666;
 }
 
 .background2 {
@@ -84,6 +93,7 @@
 .background-metade {
     background-image: url(/img/assets/parallax-imagem2.jpg);
     position: relative;
+    background-attachment: fixed;
 }
 
 .background-metade p {
@@ -95,5 +105,27 @@
     text-align: center;
     padding: 10px;
     color: #fff;
-    background-color: #c4a47c;
+    background-color: #604829;
+    font-size: 24px;
+    font-family: 'fraunces';
+}
+
+.contatos{
+    background-image: url(img/assets/parallax-imagem4.png);
+    background-attachment: fixed;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.contatos-title{
+    position: absolute;
+    width: 500px;
+    padding: 10px;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    background-color: #604829;
+    color: #fff;
 }
