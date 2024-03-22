@@ -28,10 +28,11 @@
     flex-wrap: wrap;
 }
 
-.navbar-lista li {
+.navbar-lista li,a {
     display: inline;
     text-decoration: none;
     flex-wrap: wrap;
+    font-weight: bolder;
     color: #604829;
 }
 
@@ -40,10 +41,13 @@
     height: 100vh;
 }
 
-.banner {
-    background-image: url(img/assets/parallax-imagem1.png);
+.parallax{
     background-attachment: fixed;
     position: relative;
+}
+
+.banner {
+    background-image: url(img/assets/parallax-imagem1.png);
 }
 
 .banner h1 {
@@ -65,13 +69,13 @@
     font-size: 100px;
 }
 
-.info {
+#info {
     width: 100%;
     padding: 80px 0;
     text-align: center;
 }
 
-.info h1{
+#info h1{
     color: #c4a47c;
 }
 
@@ -91,8 +95,6 @@
 
 .background-metade {
     background-image: url(/img/assets/parallax-imagem2.jpg);
-    position: relative;
-    background-attachment: fixed;
 }
 
 .background-metade p {
@@ -109,10 +111,8 @@
     font-family: 'fraunces';
 }
 
-.contatos{
+#contatos{
     background-image: url(img/assets/parallax-imagem4.png);
-    background-attachment: fixed;
-    position: relative;
     width: 100%;
     height: 100vh;
 }
@@ -127,4 +127,35 @@
     text-align: center;
     background-color: #604829;
     color: #fff;
+}
+
+#contatos iframe{
+    width: 1024px;
+    height: 450px;
+    position: absolute;
+    top: 23%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.contatos-info{
+    width: 500px;
+    background-color: #604829;
+    padding: 10px;
+    position: absolute;
+    bottom: 8%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    text-align: center;
+}
+
+.contatos-info a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#horarios{
+    width: 100%;
+    height: 85vh;
 }
